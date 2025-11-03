@@ -1,0 +1,144 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /uart_tx_packet_pkg
+=== Design Unit: work.uart_tx_packet_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         10        10         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /uart_tx_packet_pkg/uart_tx_packet/cg           100.00%        100          -    Covered              
+    covered/total bins:                                    10         10          -                      
+    missing/total bins:                                     0         10          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_normal_data_in                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_corner_data_in                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_rst                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_tx_start                            100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_parity                              100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/uart_tx_packet_pkg::uart_tx_packet::cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    10         10          -                      
+    missing/total bins:                                     0         10          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_normal_data_in                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Normal_vals_odd                                49          1          -    Covered              
+        bin Normal_vals_even                               51          1          -    Covered              
+    Coverpoint cp_corner_data_in                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin all_ONES                                        7          1          -    Covered              
+        bin all_ZEROS                                       3          1          -    Covered              
+    Coverpoint cp_rst                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rst_n_active                                    6          1          -    Covered              
+        bin rst_n_NOT_active                                7          1          -    Covered              
+    Coverpoint cp_tx_start                            100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin one_to_zero                                    25          1          -    Covered              
+    Coverpoint cp_parity                              100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin no_parity                                      42          1          -    Covered              
+        bin even_parity                                    39          1          -    Covered              
+        bin odd_parity                                     19          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /uart_tx_packet_pkg/uart_tx_packet/cg           100.00%        100          -    Covered              
+    covered/total bins:                                    10         10          -                      
+    missing/total bins:                                     0         10          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_normal_data_in                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_corner_data_in                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_rst                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_tx_start                            100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_parity                              100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/uart_tx_packet_pkg::uart_tx_packet::cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    10         10          -                      
+    missing/total bins:                                     0         10          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_normal_data_in                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Normal_vals_odd                                49          1          -    Covered              
+        bin Normal_vals_even                               51          1          -    Covered              
+    Coverpoint cp_corner_data_in                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin all_ONES                                        7          1          -    Covered              
+        bin all_ZEROS                                       3          1          -    Covered              
+    Coverpoint cp_rst                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rst_n_active                                    6          1          -    Covered              
+        bin rst_n_NOT_active                                7          1          -    Covered              
+    Coverpoint cp_tx_start                            100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin one_to_zero                                    25          1          -    Covered              
+    Coverpoint cp_parity                              100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin no_parity                                      42          1          -    Covered              
+        bin even_parity                                    39          1          -    Covered              
+        bin odd_parity                                     19          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+
